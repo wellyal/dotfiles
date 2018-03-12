@@ -3,7 +3,7 @@ set -e
 
 TIMESTAMP=$(date +%s);
 dotfilespath="$HOME/dotfiles"
-dotrepo="https://github.com/guilhermegregio/dotfiles.git"
+dotrepo="https://github.com/wellyal/dotfiles.git"
 
 if [ ! -d "$dotfilespath" ]; then
     printf "Fetching dotfiles...\n"
