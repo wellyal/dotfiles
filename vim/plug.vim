@@ -20,7 +20,7 @@ Plug 'ervandew/supertab'
 Plug 'powerline/powerline'
 Plug 'yosiat/oceanic-next-vim'
 Plug 'altercation/vim-colors-solarized'
-
+Plug 'elmcast/elm-vim'
 
 filetype plugin indent on                   " required!
 call plug#end()
