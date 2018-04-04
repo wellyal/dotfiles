@@ -14,6 +14,12 @@ set directory=~/.backup//
 
 iab gmg Guilherme Mangabeira Gregio<guilherme@gregio.net>
 
+let g:ale_fixers = {
+\ 'javascript': ['eslint']
+\}
+
+let g:ale_fix_on_save = 1
+
 "......................................................................ARQUIVO
 "" Sai fora na marra!
 imap <F12> <esc>:wqa!<cr>
@@ -33,9 +39,9 @@ set is hls ic scs  "opções espertas de busca
 
 set number
 set nowrap
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set clipboard=unnamed
 set laststatus=2
 set encoding=utf-8
