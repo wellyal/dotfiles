@@ -21,6 +21,8 @@ Plug 'powerline/powerline'
 Plug 'yosiat/oceanic-next-vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'elmcast/elm-vim'
+Plug 'wellle/targets.vim'
+Plug 'w0rp/ale'
 
 filetype plugin indent on                   " required!
 call plug#end()
